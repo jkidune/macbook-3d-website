@@ -16,8 +16,8 @@ const ModelSwitcher = ({ scale, isMobile }) => {
         snap: true,
         speed: 1,
         zoom: 1,
-        polar: [-Math.PI / 3, Math.PI / 3],
-        azimuth: [-Math.PI / 1.4, Math.PI / 1.4]
+        polar: [-Math.PI, Math.PI],
+        azimuth: [-Infinity, Infinity]
     }
 
     return (
