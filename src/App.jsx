@@ -1,14 +1,11 @@
-import NavBar from './components/NavBar.jsx'
-import HeroTitle from './components/herotitle.jsx'
-import HeroDescription from './components/HeroDescription.jsx' 
+import Hero from './components/Hero.jsx'
 import BentoSection from './components/BentoSection.jsx'
 
 const App = () => {
   return (
+//Add the Hero component to the main section    
  <main>
-  <NavBar />
-  <HeroTitle />
-  <HeroDescription />
+  <Hero />
   <BentoSection />
  </main>
   )
